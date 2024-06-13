@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grand Hotel</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/hotel_logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Start of nav bar -->
+  <div class="navbar">
+    <input type="checkbox" id="click" class="checkbox" />
+
+    <!-- Start of sidebar -->
+    <div class="sidebar">
+      <label for="click">
+        <div class="menu-icon">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+      </label>
+      <ul class="social-icons-list">
+        <li>
+          <a href="https://www.facebook.com/grandhotelsince1935/" class="social-link"><i class="fab fa-facebook-square"></i></a>
+        </li>
+        <li>
+          <a href="#" class="social-link"><i class="fab fa-twitter-square"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/grand-hotel-2/" class="social-link"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/grandhotelabc/?hl=en" class="social-link"><i class="fab fa-instagram-square"></i></a>
+        </li>
+        <li>
+          <a href="#" class="social-link"><i class="fab fa-google-plus-square"></i></a>
+        </li>
+      </ul>
+      <div class="year">
+        <p>2024</p>
+      </div>
+    </div>
+    <!-- End of sidebar -->
+
+    <nav class="navigation">
+      <div class="navigation-header">
+        <h1 class="navigation-heading">Grand Hotel</h1>
+        <form action="" class="navigation-search">
+          <input type="text" class="navigation-search-input" placeholder="search" />
+          <button class="navigation-search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+      <ul class="navigation-list">
+        <li class="navigation-icon">
+          <a href="#" class="navigation-link">Home </a>
+        </li>
+        <li class="navigation-icon">
+          <a href="#about-us" class="navigation-link">About us </a>
+        </li>
+        <li class="navigation-icon">
+          <a href="#rooms" class="navigation-link">Rooms </a>
+        </li>
+        <li class="navigation-icon">
+          <a href="#customers" class="navigation-link">Customers </a>
+        </li>
+        <li class="navigation-icon">
+          <a href="#contact" class="navigation-link">Contact </a>
+        </li>
+      </ul>
+      <div class="copyright">
+        <p>&copy; 2024. Grand Hotel. All rights Reserved.</p>
+      </div>
+    </nav>
+  </div>
+  <!-- End of nav bar -->
+
+  <!--  header -->
+  <header class="header">
+    
+    <div class="brand">
+      <div>
+        <img src="images/hotel_logo.jpg" class="main_logo" alt="" width="48" />
+      </div>
+      <h3 class="hotel-heading">Grand Hotel</h3>
+      
+      <button type="button" class="login-btn"><a href="login.html">Login</a></button>
+      
+    </div>
+
+    <div class="banner">
+      <h1 class="banner-heading">Welcome to Grand Hotel</h1>
+      <p class="banner-paragraph">Make your life Luxorious</p>
+      <a href="menu.pdf"><button class="banner-button">Check Out</button></a>
+    </div>
+  </header>
+  <!-- end of header -->
+
+  <!-- about us -->
+  <section id="about-us" class="about-us">
+    <div class="about-us-content">
+      <h1 class="about-us-heading">About Us</h1>
+      <div class="undeline">
+        <div class="small-underline">
+          <br />
+          <div class="big-underline"></div>
+        </div>
+      </div>
+      <h3 class="sub-heading">Grand Hotel</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ut totam
+        similique nulla dolores maxime modi itaque quia dignissimos, error,
+        temporibus autem voluptates iure quisquam aspernatur. Natus commodi ex
+        fugiat numquam culpa? Veniam, doloremque.
+      </p>
+      <button class="about-us-btn">
+        <a href="about-readme.html" style="text-decoration: none; color: #b85d1c;">Read More</a>
+        <!-- <i class="fas fa-angle-double-right btn-arrow"></i> -->
+      </button>
+    </div>
+
+    <div class="about-us-images">
+      <img src="images/about-us-image1.jpeg" alt="Hotel Images" class="image image-1" />
+      <img src="images/about-us-image2.jpeg" alt="Hotel Images" class="image image-2" />
+      <img src="images/about-us-image3.jpeg" alt="Hotel Images" class="image image-3" />
+      <img src="images/about-us-image4.jpeg" alt="Hotel Images" class="image image-4" />
+    </div>
+  </section>
+  <!-- end of about us -->
+
+  <!-- rooms -->
+  <section id="rooms" class="rooms">
+    <div class="rooms-cards-wrapper">
+    <div class="room-card">
+        <img src="images/single-room.jpeg" alt="Single Bed Room" class="room-img" />
+        <div class="room-card-content">
+            <h3 class="room-card-heading">Single Room</h3>
+            <p class="room-card-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="room-price">₹ 2500</p>
+            <button class="room-card-btn" onclick="selectRoom('Single Room', 2500)">Book now</button>
+        </div>
+    </div>
+    <div class="room-card">
+        <img src="images/double-room.jpeg" alt="Double Bed Room" class="room-img" />
+        <div class="room-card-content">
+            <h3 class="room-card-heading">Double Room</h3>
+            <p class="room-card-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="room-price">₹ 5000</p>
+            <button class="room-card-btn" onclick="selectRoom('Double Room', 5000)">Book now</button>
+        </div>
+    </div>
+    <div class="room-card">
+        <img src="images/lux-room.jpeg" alt="Luxury Bed Room" class="room-img" />
+        <div class="room-card-content">
+            <h3 class="room-card-heading">Luxury Room</h3>
+            <p class="room-card-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="room-price">₹ 7500</p>
+            <button class="room-card-btn" onclick="selectRoom('Luxury Room', 7500)">Book now</button>
+        </div>
+    </div>
+    <div class="room-card">
+        <img src="images/vip-room.jpeg" alt="VIP Bed Room" class="room-img" />
+        <div class="room-card-content">
+            <h3 class="room-card-heading">VIP Room</h3>
+            <p class="room-card-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="room-price">₹ 10000</p>
+            <button class="room-card-btn" onclick="selectRoom('VIP Room', 10000)">Book now</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="booking-form-modal" id="booking-form-modal">
+    <div class="booking-form-content">
+        <span class="close-btn" onclick="closeForm()">&times;</span>
+        <h2>Book Your Stay</h2>
+        <form id="booking-form" onsubmit="submitBooking(event)">
+            <label for="room-type">Room Type:</label>
+            <input type="text" id="room-type" name="roomType" readonly required>
+            
+            <label for="room-price">Room Price:</label>
+            <input type="text" id="room-price" name="roomPrice" readonly required>
+            
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="check-in">Check-in Date:</label>
+            <input type="date" id="check-in" name="checkInDate" required>
+            
+            <label for="check-out">Check-out Date:</label>
+            <input type="date" id="check-out" name="checkOutDate" required>
+            
+            <label for="food">Food Items:</label>
+            <select id="food" name="foodItems" multiple>
+                <option value="breakfast">Breakfast - ₹ 100</option>
+                <option value="lunch">Lunch - ₹ 200</option>
+                <option value="dinner">Dinner - ₹ 500</option>
+                <option value="snacks">Snacks - ₹ 50</option>
+            </select>
+            
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+</div>
+
+  </section>
+  
+  <!--end of rooms -->
+
+  <!-- customers -->
+  <section id="customers" class="customers">
+    <div class="common-header">
+      <h1 class="common-heading">Our Customers</h1>
+      <div class="undeline">
+        <div class="small-underline">
+          <br />
+          <div class="big-underline"></div>
+        </div>
+      </div>
+    </div>
+
+    <p class="customers-paragraph">
+      Lorem ipsum dolor sit amet adipisicing. <br />
+      Et, accusamus! Temporibus, harum! Lorem ipsum
+    </p>
+
+    <div class="customers-card-wrapper">
+      <div class="customer-card">
+        <div class="customer-image-wrapper">
+          <img src="images/customer-1.jpeg" />
+        </div>
+        <div class="customer-info">
+          <h3 class="customer-fullname">Helen Doe's Family</h3>
+          <p class="customer-paragraph-1">Happy Customer</p>
+          <p class="customer-paragraph-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo
+            magni corrupti.
+          </p>
+        </div>
+      </div>
+      <div class="customer-card">
+        <div class="customer-image-wrapper">
+          <img src="images/customer-2.jpeg" />
+        </div>
+        <div class="customer-info">
+          <h3 class="customer-fullname">Monica's Family</h3>
+          <p class="customer-paragraph-1">Happy Customer</p>
+          <p class="customer-paragraph-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo
+            magni corrupti.
+          </p>
+        </div>
+      </div>
+      <div class="customer-card">
+        <div class="customer-image-wrapper">
+          <img src="images/customer-3.jpeg" />
+        </div>
+        <div class="customer-info">
+          <h3 class="customer-fullname">Rahul's Family</h3>
+          <p class="customer-paragraph-1">Happy Customer</p>
+          <p class="customer-paragraph-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo
+            magni corrupti.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End of customers -->
+      <!-- Starting of Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Get <span>In Touch</span></h2>
+            <h4>If you are interested in working with me or just want to say hello, feel free to contact me!</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quas ducimus necessitatibus quisquam illo
+                deserunt eius sed, velit odit ipsam!</p>
+            <ul class="contact-list">
+                <li><i class='bx bx-map'></i>India</li>
+                <li><i class='bx bx-envelope'></i>jayarambellamkonda@gmail.com</li>
+                <li><i class='bx bx-phone-call'></i>+91 99999 99999</li>
+            </ul>
+            <div class="contact-icons">
+                <a href="https://www.facebook.com/jayaram.bellamkonda/" style="--i:7"><i
+                        class='bx bxl-facebook'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/jayaram-bellamkonda/" style="--i:9"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://www.github.com/Jaya-Ram/" style="--i:10"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="subject" placeholder="Subject" required>
+                <textarea id="message" rows="5" placeholder="Message" required></textarea>
+                <button type="button" class="button" onclick="sendEmail()" class="send">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <iframe id="emailFrame" name="emailFrame" style="display: none;"></iframe>
+
+    <!-- End of Contact Section -->
+
+    <!-- Starting of Footer Section -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&nbsp; &nbsp;&nbsp; &nbsp; &copy; 2024 Jayaram Bellamkonda. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- End of Footer Section -->
+    <script src="script.js"></script>
+</body>
+
+</html>
