@@ -77,4 +77,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ## Contact
 
 For any inquiries or support, please contact us at (mailto:jayarambellamkonda@gmail.com).
-```
